@@ -1,0 +1,75 @@
+get  http://localhost:1000/matiere
+###
+POST  http://localhost:3000/test
+{
+        "name":"scientest",
+           "level":"hard",
+           "price":500
+}
+
+
+###
+
+POST  http://localhost:1000/addUser 
+content-type:application/json
+
+{
+           "name":"karam",
+           "password":"hard1245",
+           "email":"karamh@gmail.com",
+           "link":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlgvV1hHyiJBxQtwjGpzklyZQ13Lt-yml3PogF6E8PD0rWV6YS5QxwdXD7mQkbzp2nUbA&usqp=CAU",
+           "age":27,
+           "matiere":"63f2639cc939aa23225ee92b"
+}
+
+### add matiere server 2
+POST http://localhost:3000/add
+content-type:application/json
+
+{
+    "name":"ahhlem",
+    "password":"ahlemAych1992/",
+    "confirmPassword":"ahlemAych1992/",
+    "email":"takwa@gmail.com",
+    "region":"tunis",
+    "option":"true"
+}
+
+
+
+###login user server 2
+
+POST http://localhost:3000/login
+content-type:application/json
+
+{
+  
+    "password":"ragdoicnghhOuni1992/%@",
+   
+    "email":"rad@gmail.com"
+   
+}
+###employer details
+
+GET http://localhost:3000/displayemployer
+
+###add employer
+POST   http://localhost:3000/addEmployer
+content-type:application/json
+
+
+
+{
+    "name":"rad",
+    "salary":"800",
+    "position":"director"
+}
+
+
+
+
+
+
+
+
+

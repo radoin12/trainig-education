@@ -1,0 +1,29 @@
+   {user&&
+      
+      user.filter((data)=>data.comment.length>0).map((r)=>
+
+        <div className='container mt-2' style={{border:'2px solid'}}>
+       <div className='row'>
+        <div className='col-md-4'>
+          <div className='d-flex'>
+          <img   src={r.link} style={{width:'50px ',borderRadius:'100%'}}/>
+          <h2>{r.name}</h2>
+          </div>
+          {
+      user.map((r)=>r.comment.map((t)=>
+      <p>{t.content}</p>
+     
+     ))
+     }
+          
+           
+        
+       
+        </div>
+
+       </div>
+      </div>
+      )
+      
+     
+     }

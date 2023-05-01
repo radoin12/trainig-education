@@ -1,0 +1,116 @@
+.animationText{
+   background-color: blueviolet;
+
+ 
+   position: relative;
+   animation-name: example;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+  
+   animation-iteration-count: infinite;
+   text-transform: uppercase;
+   line-height: 30px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+   font-style: oblique;
+}
+@keyframes example {
+    0%   {background-color: rgb(26, 16, 179);left:0px; top:0px;}
+    50% {background-color: rgba(65, 55, 202, 0.454);left:500px; top:0px;}
+    100% {background-color: rgb(164, 177, 180);left:1500px; top:0px;}
+  
+  
+
+  
+   
+  }
+  /* home section */
+  .sectionHome{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+  .bgstyle{
+    background-color: rgb(94, 228, 197);
+  }
+  .colorstyle2{
+    color:rgb(200, 230, 163)
+  }
+  /* underline title */
+  .underLine{
+    background-color: rgb(206, 151, 23);
+    width: 180px;
+    height: 2px;
+  }
+  .underLine3{
+    background-color:rgb(101, 206, 79);
+    width: 180px;
+    height: 5px;
+  }
+  .underLine4{
+    background-color:rgb(159, 8, 43);
+    width: 150px;
+    height: 4px;
+  }
+  .underline1{
+ background-color: rgb(10, 118, 137);
+ width: 0px;
+ height: 2px;
+ margin-left: 70px;
+transition: width 1s;
+transition-timing-function: ease;
+
+
+  }
+
+
+  .parentmove:hover .underline1 {
+    width: 130px;
+    height: 2px;
+  
+  }
+
+  .spacing{
+   margin-left: 90px;
+   width: 150px;
+   
+
+  }
+  .title-style{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+   word-spacing: 5px;
+  }
+
+
+  /* colors */
+  .lightBlue{
+    color:rgb(196, 214, 214);
+  }
+   /* labelimagematiere */
+   .labelImage{
+ 
+
+     margin: 80px;
+     border:3px solid white;
+       width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      cursor: pointer;
+   }
+   
+  
+   .borderTitle{
+    
+    border-right:2px solid rgb(12, 12, 50);
+    border-bottom: 2px  solid blue;
+    
+   
+   }
+   .mytab>th{
+
+ font-size: 20px;
+ width: 10px;
+   }
+  
+   

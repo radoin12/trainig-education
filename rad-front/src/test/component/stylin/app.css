@@ -1,0 +1,58 @@
+.errmsg{
+ color: red;
+}
+.textStyleLbael{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+   
+    padding-top: 5px;
+    margin-left: 50px;
+    color:rgba(3, 3, 116, 0.872);
+    font-style: oblique;
+}
+
+.blue{
+    color: rgb(220, 253, 120);
+}
+
+/* login error para */
+.errorPara{
+  text-align: center;
+  color:red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+ font-style: italic;
+}
+.successPara{
+    text-align: center;
+    color:green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+   font-style: italic;    
+}
+/* contact color error handler */
+.textCOLOR{
+    color:rgb(239, 195, 176);
+    font-size: 25px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    font-weight: 500;
+   
+ 
+}
+
+.styleclose{
+    margin: 0 35px ;
+    border:2px solid gray;
+    color:red;
+    cursor: pointer;
+    padding: 0 2px;
+   
+
+}
+
+
+
+
+
